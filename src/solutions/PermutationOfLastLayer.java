@@ -38,7 +38,6 @@ public class PermutationOfLastLayer extends Solution{
         }
         else{
             //判断顶层四角块的状态
-            //对应图示请参考设计文档
             state = 0;
             for(int i=0;i<4;i+=1){
                 if((color[3][0] == color[3][2]) && (color[0][0] == color[0][2])){
@@ -75,7 +74,6 @@ public class PermutationOfLastLayer extends Solution{
             stall(300+delay);
 
             //判断顶层四棱块的状态
-            //对应图示请参考设计文档
             state = 0;  
             for(int i=0;i<4;i+=1){
                 if((color[0][0] == color[0][1]) && (color[1][0] == color[1][1])){

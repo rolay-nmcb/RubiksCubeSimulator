@@ -26,7 +26,6 @@ public class OrientationOfLastLayer extends Solution{
         else{
 
             //判断顶层四棱块的状态
-            //对应图示请参考设计文档
             state = 0;
             for(int i=0;i<4;i+=1){
                 if(color[4][1]==YELLOW && color[4][3]==YELLOW && color[4][5]==YELLOW && color[4][7]==YELLOW){
@@ -69,7 +68,6 @@ public class OrientationOfLastLayer extends Solution{
             }
 
             //判断顶层四角块的状态
-            //对应图示请参考设计文档
             state = 0;  
             for(int i=0;i<4;i+=1){
                 if(color[4][0]==YELLOW && color[4][2]==YELLOW && color[4][6]==YELLOW){

@@ -12,8 +12,6 @@ import java.util.List;
 
 
 public class KociembaSolver extends Solution {
-
-    // 假设这些常量与你定义的颜色值一致
     public static final int BLUE = 0;
     public static final int RED = 1;
     public static final int GREEN = 2;
@@ -107,7 +105,7 @@ public class KociembaSolver extends Solution {
         }
     }
 
-    // 假设函数：使用 Kociemba 算法返回字符串步骤
+    // 使用 Kociemba 算法返回字符串步骤
     private List<String> solveKociemba(String facelets) {
         List<String> steps = new ArrayList<>();
         try {
